@@ -32,32 +32,67 @@ $$r = S_t -q\gamma\sigma^2 (T-t) - \lambda \mathbb{E}\[e^{-\gamma J} - 1\](T-t)$
 ## Тетради с решениями:  
 ### Av_Stoikov_RL
 Решение первого приближения  
-Оптимизируемые параметры   
+
+Оптимизируемые параметры  
+
 - $\gamma$  
-Задержка  
+Задержка
+
 - 1 мин  
-Алгортмы RL  
+Алгортмы RL
+ 
 - Deep Q Learning  
 - Actor Critic
 
 ### Av_Stoikov_RL_not_latency  
 Решение первого приближения  
-Оптимизируемые параметры   
-- $\gamma$  
-Задержка  
-- нет 
-Алгортмы RL  
+Оптимизируемые параметры     
+- $\gamma$   
+Задержка
+
+- нет
+- 
+Алгортмы RL
+
 - Deep Q Learning  
 - Actor Critic
 
-### Av_Stoikov_RL_ gam_l
-Добавили параметр k и RL алгоритм PPO
-Оптимизируемые параметры   
+### Av_Stoikov_RL_ gam_k 
+Добавили параметр k и RL алгоритм PPO  
+
+Оптимизируемые параметры    
+
 - $\gamma$
-- k 
-Задержка  
-- нет 
-Алгортмы RL  
-- Deep Q Learning  
+- k
+  
+Задержка
+
+- нет
+  
+Алгортмы RL
+
+- Deep Q Learning   
+- Actor Critic
+- Proximal Policy Optimization
+
+### Av_Stoikov_RL_ gam_k_Dsig 
+Добавили поправку в параметр $\sigma &
+
+$$ \Delta\sigma = \sigma - \hot{\sigma} $$
+где $\hot{\sigma} $ - оценка $\sigma $ на основе данных
+
+Оптимизируемые параметры    
+
+- $\gamma$
+- k
+- \Delta\sigma
+  
+Задержка
+
+- нет
+  
+Алгортмы RL
+
+- Deep Q Learning   
 - Actor Critic
 - Proximal Policy Optimization
