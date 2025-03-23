@@ -25,14 +25,14 @@ $$\delta_a + \delta_b = \gamma\sigma^2(T-t) + \frac{1}{\gamma}\ln(1+\frac{\gamma
 
 $$ dS_t = \mu dt +\sigma dW +JdN_t$$
 
-$$r = S_t -q\gamma\sigma^2 (T-t) - \lambda \mathbb{E}[e^{-\gamma J} - 1](T-t)$$
+$$r = S_t -q\gamma\sigma^2 (T-t) - \lambda \mathbb{E}\[e^{-\gamma J} - 1\](T-t)$$
 
 ## Av_Stoikov_RL
 Решение первого приближения  
-Оптимизируемые параметры
+Оптимизируемые параметры  
 - $\gamma$
 Задержка
-- 1 мин
-Алгортмы RL
+- 1 мин  
+Алгортмы RL  
 - Deep Q Learning
 - Actor Critic
