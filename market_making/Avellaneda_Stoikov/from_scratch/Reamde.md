@@ -79,6 +79,7 @@ $$r = S_t -q\gamma\sigma^2 (T-t) - \lambda \mathbb{E}\[e^{-\gamma J} - 1\](T-t)$
 Добавили поправку в параметр $\sigma $
 
 $$ \Delta\sigma = \sigma - \hot{\sigma} $$
+
 где $\hot{\sigma} $ - оценка $\sigma $ на основе данных
 
 Оптимизируемые параметры    
