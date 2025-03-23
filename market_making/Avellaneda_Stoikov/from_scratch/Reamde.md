@@ -75,7 +75,7 @@ $$r = S_t -q\gamma\sigma^2 (T-t) - \lambda \mathbb{E}\[e^{-\gamma J} - 1\](T-t)$
 - Actor Critic
 - Proximal Policy Optimization
 
-### Av_Stoikov_RL_ gam_k_Dsig 
+### Av_Stoikov_RL_gam_k_Dsig 
 Добавили поправку в параметр $\sigma $
 
 $$ \Delta\sigma = \sigma - \hat{\sigma} $$
@@ -98,3 +98,12 @@ $\hat{\sigma} - оценка  \sigma $
 - Deep Q Learning   
 - Actor Critic
 - Proximal Policy Optimization
+
+### Av_Stoikov_RL_ gam_k_Dsig_16 
+В подходе Av_Stoikov_RL_gam_k_Dsig добавили lookback до 16 значений доходностей
+
+
+### Av_Stoikov_RL_ gam_k_Dsig_16_conv 
+В подходе Av_Stoikov_RL_gam_k_Dsig_16 сделана замена полносвязных слоев на свертки
+
+
