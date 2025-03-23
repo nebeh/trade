@@ -81,19 +81,13 @@ $$r = S_t -q\gamma\sigma^2 (T-t) - \lambda \mathbb{E}\[e^{-\gamma J} - 1\](T-t)$
 $$ \Delta\sigma = \sigma - \hat{\sigma} $$
 
 где 
-$\hat{\sigma} $ 
-
-оценка 
-
-$\sigma $ 
-
-на основе данных
+$\hat{\sigma} $ оценка  $\sigma $ на основе данных
 
 Оптимизируемые параметры    
 
 - $\gamma$
 - k
-- \Delta\sigma
+- $\Delta\sigma$
   
 Задержка
 
