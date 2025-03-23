@@ -1,4 +1,4 @@
-# from_strach
+## from_strach
 Базовые подходы для проверки эффективностей гипотез
 
 ## based_work_work
