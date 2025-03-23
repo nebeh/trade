@@ -51,7 +51,7 @@ $$r = S_t -q\gamma\sigma^2 (T-t) - \lambda \mathbb{E}\[e^{-\gamma J} - 1\](T-t)$
 Задержка
 
 - нет
-- 
+  
 Алгортмы RL
 
 - Deep Q Learning  
@@ -76,7 +76,7 @@ $$r = S_t -q\gamma\sigma^2 (T-t) - \lambda \mathbb{E}\[e^{-\gamma J} - 1\](T-t)$
 - Proximal Policy Optimization
 
 ### Av_Stoikov_RL_ gam_k_Dsig 
-Добавили поправку в параметр $\sigma &
+Добавили поправку в параметр $\sigma $
 
 $$ \Delta\sigma = \sigma - \hot{\sigma} $$
 где $\hot{\sigma} $ - оценка $\sigma $ на основе данных
