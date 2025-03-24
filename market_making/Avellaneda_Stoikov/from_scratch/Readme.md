@@ -109,4 +109,7 @@ $\hat{\sigma} - оценка  \sigma $
 ### Av_Stoikov_RL_ gam_k_Dsig_16_conv 
 В подходе Av_Stoikov_RL_gam_k_Dsig_16 сделана замена полносвязных слоев на свертки
 
+### Av_Stoikov_RL_ gam_k_Dsig_16_conv_DDPG 
+Добавлены непрерывные действия (выбор из непрерывного пространства действий)
+
 
